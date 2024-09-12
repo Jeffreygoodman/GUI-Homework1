@@ -1,0 +1,39 @@
+body {
+    font-size: 22px; /*change the font size for the text inside the body to 22 pixels*/
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;/*change the font*/
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image: url('images/cool-background.png'); /*sets the background image for the header*/
+    padding: 30px;/**/
+    text-align: center; /*center the text in the header*/
+    color: black;/*change the color of the text to black*/
+    font-size: 20px;/*change the font within the header to 20 pixels*/
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%; /* Ensures the header is full width */
+}
+.container {
+    display: flex; /*creates a flexbox layout of the elements in the container*/
+    justify-content: space-between; /*distributes child elements with space between them*/
+    padding: 20px;
+}
+main {
+    width: 150%; /* Adjust width as needed */
+    word-wrap: break-word;
+}
+img {
+    max-width: 100%; /*image cannot exceed the width of the container*/
+    height: auto; /*adjust the image height automatically to maintain aspect ratio*/
+    width: 50%;  /*image width is 50% of its container*/
+    margin-left: 20px;
+}
+.right-column {
+    display: flex; /*creates flexbox layout for elements in the right column*/
+    flex-direction: column; /*stack elements vertically*/
+    align-items: flex-end; /*align images to the right side*/
+}
+a {
+    color: blue;
+    text-decoration: underline; /*change the text color to blue and underline it, to make it appear how most links do*/
+}
